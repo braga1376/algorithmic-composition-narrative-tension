@@ -1,0 +1,4 @@
+Correspondance:
+Donor - 1
+Conflict Simple - 2
+Task - 3
