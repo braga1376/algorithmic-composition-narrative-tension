@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from genetic_algorithm import NSGAII, Individual, MotifHarmonicCombiner, rank_tension_combinations, select_n_by_weighted_preferences
 from harmony_grammar import HarmonyGrammar, TreeNode
 from narrative import PlotAtom, PlotSpan, Character, Role
-from motif_composer import get_motif_llm, MarkovMotifGenerator
+from motif_composer import get_motif_llm
 from utils import NOTE_TO_ROOT, Key, Note, Motif
 
 class CharacterMotifGenerator:
